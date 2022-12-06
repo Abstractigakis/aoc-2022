@@ -10,6 +10,7 @@ with open('data.txt') as f:
         y=int(y)
         a=int(a)
         b=int(b) 
+        
         if not(x>b and y>b or x<a and y<a): 
             fcp+=1
     print(fcp)
